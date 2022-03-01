@@ -1,0 +1,40 @@
+@media(max-width: 1024px){
+    #header{
+        left: -300px;
+    }
+    i.menu-mobile{
+        display: flex;
+    }
+    section#inicio h2{
+        font-size: 3.5rem;
+    }
+    section#inicio espan#subtitle{
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    #main{
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width: 1860px) {
+    .carousel-control-prev {
+        margin-left: 0;
+    }
+    .carousel-control-next {
+        margin-right: 0;
+    }
+
+    [data-anime="right"] {
+        transform: translate3d(0, 100%, 0);
+    }
+}
+/*Footer*/
+@media (max-width: 1012px) {
+    #footer{
+      position: static;
+      width: auto;
+      padding: 20px 15px;
+    }
+  }
